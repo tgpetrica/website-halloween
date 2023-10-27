@@ -13,3 +13,4 @@ Realizare front-end website
 - buton catre -> fun facts
 
 - footer (privacy policy, social media icons), contact us (mail, telefon)
+
