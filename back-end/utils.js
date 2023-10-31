@@ -14,6 +14,11 @@ const database = new Sequelize("formular_inregistrare", "root", "", {
 
 // Define the "inscrisis" model
 const inscrisisDb = database.define("inscrisis", {
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    autoIncrement: true, // This sets the ID to auto-increment
+  },
   prenume: {
     type: DataTypes.STRING,
     allowNull: false, // Ensure allowNull is set to false for all required fields
