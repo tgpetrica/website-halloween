@@ -1,0 +1,107 @@
+#main-heading {
+    text-transform: uppercase;
+    background-color: #451952;
+    color: #AE445A;
+    text-align: center;
+    font-family: Riky Vampdator Normal;
+    padding: 12px 12px;
+    margin: 0;
+}
+
+.premiera {
+    text-transform: uppercase;
+    text-align: center;
+    background-color:#662549;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    color: #F16821;
+}
+
+.buton1 {
+    background-color: #662549;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color:#662549;
+    color: #AE445A;
+    padding: 12px 12px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.btn:hover {
+    color: #451952;
+}
+
+*{
+    font-family: Caudex;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 50%;
+    max-width: 400px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-group {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 5px;
+}
+
+.form-group button {
+    display: block;
+    margin: 15px auto 0;
+    max-height: 64px;
+    padding: 10px;
+    width: 100%;
+}
+
+#registrationButton {
+    background-color: #451952;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#registrationButton:hover {
+    background-color: #f16821;
+}

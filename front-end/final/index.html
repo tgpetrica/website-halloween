@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hollywood Halloween</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+   <style>
+       body{
+        background-image: url(bgimg.jpg);
+        background-size: cover;
+       }
+       p{
+        color:black;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .text-colorat {
+            color: rgb(194, 60, 11);
+
+        }
+        .colorat {
+            color:green;
+        }
+        .boom {
+            color: rgb(131, 15, 131);
+        }
+        .text-italic{
+            font-style: italic;
+        
+        }
+        .fant {
+            color: rgb(132, 9, 9);
+        }
+        .hall {
+            color: antiquewhite;
+        }
+        .recruit-facebook{font-size:1em;color:#f5f5f5;margin-bottom:8px;background-color:#4267b2;text-decoration:none;transition:all .2s ease-in-out;display:inline-block;padding:10px;box-shadow:0 5px 10px #0009;border-radius:0rem}
+   </style>
+<body>
+    <header>
+        <div class="heading">
+            <h1 id="main-heading">Hollywood Halloween</h1>
+        </div>
+        <div class="premiera">
+            <h2 class="premiera">O premieră de groază</h2>
+            <img class="pumpkin-img" src="./HALLOWEEN/pumpkin.png" alt="poza cu dovleac">
+        </div>
+        <nav>
+            <div class="buton1">
+                <a href="index.html"><button class="btn" style="color: #AE445A;">Home</button></a>
+                <button id="registerButton" class="btn" style="color: #AE445A;">Register</button>
+                <button id="staffButton" class="btn" style="color: #AE445A;">Staff</button></a>
+                <button id="contactButton" class="btn" style="color: #AE445A;">Contact</button></a>
+            </div>
+        </nav>
+    </header>
+    <div id="registerModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" id="closeRegister">&times;</span>
+            <h2>Formular de inregistrare</h2>
+            <form id="registrationForm" class="two-column-form">
+                <div class="form-group">
+                    <label for="name">Nume:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" id="prenume" name="prenume" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Numar de telefon:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Varsta:</label>
+                    <input type="text" id="age" name="age" required>
+                </div>
+
+                <div class="form-group">
+                    <button id="registrationButton">Inregistreaza-te</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="staffModal" class="modal" style="display: none;">
+        <div class="modal-content" id="staffModalContent">
+            <span class="close" id="closeStaffModal">&times;</span>
+            <h2>Staff List (Web)</h2>
+            <ul>
+                <li>
+                    <p>Cristina Ureche</p>
+                    <a href="https://www.facebook.com/cristina.ureche.50" target="_blank" class="recruit-facebook" rel="noreferrer">facebook</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        
+    <div id="contactModal" class="modal" style="display: none;">
+        <div class="modal-content" id="modalContent">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Date de contact</h2>
+            <p>Nume: Teodor Petrica</p>
+            <p>RSVP: <a href="tel:+40784235543"><i class="fa fa-phone"></i> +40 784 235 543</a></p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61552744472864" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" width="32" height="32" alt="Facebook Icon">
+                </a>
+                
+                <a href="https://www.instagram.com/hollywoodhalloween_/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" width="32" height="32" alt="Instagram Icon">
+                </a>
+                
+                <a href="https://www.tiktok.com/@hollywoodhallowen" target="_blank">
+                    <img src="https://www.tiktok.com/favicon.ico" width="32" height="32" alt="TikTok Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <span class="text-italic"><h1>V-ați întrebat vreodată cum ar fi să vă costumați în Jack Sparrow, dar mai  horror?</h1></span>
+    <main>
+        <p>Acum este momentul, la <span class="text-colorat"><strong>Hollywood Horror Night!</strong></span> Îți pregătim o <span class="colorat">noapte plină de magie și mister</span>, în care vei străluci
+            mai mult decât celebritățile de la Hollywood.
+        <p>Crează-ți personajul în cel mai<span class="boom"> spooky </span>mod,pentru că te așteptăm să defilezi pe covorul roșu al terorii și ai șansa să te numeri
+            printre cei 3 fantomatici care vor fi premiați de către sponsorii noștri. 
+            
+        <p>Evenimentul are loc pe data de 31 octombrie, în <span class="text-colorat">Club Beluga Music&Cocktails.</span>
+           Accesul este permis doar studențiilor din CSIE începând cu ora 21:00 .<span class="fant"> INTRAREA ESTE GRATUITĂ</span>, și se va obține pe baza unui formular
+            pe care îl veți găsi aici!
+            Vino și pregătește-te pentru o seară de neuitat în care tu vei fi personajul principal din cel mai înfricoșător film!
+            </p>
+    </main>
+    <script src="script-fe.js"></script>
+</body>
+</html>
