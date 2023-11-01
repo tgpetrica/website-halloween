@@ -175,6 +175,15 @@ html, body {
     color: orange;
 }
 
+#telef{
+    text-decoration: none;
+    color: orange;
+}
+
 #email:hover{
+    text-decoration: underline;
+}
+
+#telef:hover{
     text-decoration: underline;
 }
