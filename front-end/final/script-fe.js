@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const contactButton = document.getElementById('contactButton');
     const contactModal = document.getElementById('contactModal');
-    const closeModal = document.getElementById('closeModal');
+    const closeContactModal = document.getElementById('closeModal');
 
     contactButton.addEventListener('click', () => {
         contactModal.style.display = 'block';
     });
 
-    closeModal.addEventListener('click', () => {
+    closeContactModal.addEventListener('click', () => {
         contactModal.style.display = 'none';
     });
 
@@ -52,6 +52,25 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('click', (e) => {
         if (e.target === staffModal) {
             staffModal.style.display = 'none';
+        }
+    });
+
+    const privacyButton = document.getElementById('privacyButton');
+    const privacyModal = document.getElementById('privacyModal');
+    const closePrivacyModal = document.getElementById('closeModal');
+
+    // Function to open the privacy modal
+    privacyButton.addEventListener('click', () => {
+        privacyModal.style.display = 'block';
+    });
+
+    closePrivacyModal.addEventListener('click', () => {
+        privacyModal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target === privacyModal) {
+            privacyModal.style.display = 'none';
         }
     });
 
